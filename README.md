@@ -12,3 +12,8 @@ Starting off simple, write a program that reads an input from System.in, then de
 The criteria at this stage is, well, simple. If the input contains 100 symbols (including whitespace and punctuation) or
 less, then it is easy. Otherwise, we'll consider it hard.
 
+##### Stage 2: Words and sentences
+Time to take another approach. We'll now base our decision on the average numbers of words in each sentence.
+
+Read from System.in a single line of text containing sentences. Calculate the average number of words per sentence, and
+output `EASY` if the average is 10 or lower. Otherwise output `HARD`.
