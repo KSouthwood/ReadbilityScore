@@ -16,4 +16,12 @@ less, then it is easy. Otherwise, we'll consider it hard.
 Time to take another approach. We'll now base our decision on the average numbers of words in each sentence.
 
 Read from System.in a single line of text containing sentences. Calculate the average number of words per sentence, and
-output `EASY` if the average is 10 or lower. Otherwise output `HARD`.
+output `EASY` if the average is 10 or lower. Otherwise, output `HARD`.
+
+##### Stage 3: Score!
+Build upon the previous stage and read the text in from a file supplied via a command-line argument. We will now compute
+a score using the Automated readability index
+([Wikipedia article here](https://en.wikipedia.org/wiki/Automated_readability_index)).
+
+Calculate and output the following: number of words in the text, number of sentences, number of characters, the ARI
+score, and the age range needed to comprehend the text.
