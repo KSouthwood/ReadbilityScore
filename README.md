@@ -25,3 +25,10 @@ a score using the Automated readability index
 
 Calculate and output the following: number of words in the text, number of sentences, number of characters, the ARI
 score, and the age range needed to comprehend the text.
+
+##### Stage 4: More parameters
+Implement three more readability score algorithms: Flesch–Kincaid, SMOG, and Coleman-Liau. Also calculate the number of
+syllables and polysyllables (words with 3 or more syllables) in the text - needed for the other indexes calculations.
+
+After outputting the counts of everything, ask which index score is to be calculated (or all), output requested index(s)
+and then the (average) age of the index(s).
